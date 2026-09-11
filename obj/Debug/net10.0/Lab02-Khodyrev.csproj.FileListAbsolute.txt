@@ -12,3 +12,4 @@ C:\Users\Teacher\Documents\Lab02-Khodyrev\obj\Debug\net10.0\refint\Lab02-Khodyre
 C:\Users\Teacher\Documents\Lab02-Khodyrev\obj\Debug\net10.0\Lab02-Khodyrev.pdb
 C:\Users\Teacher\Documents\Lab02-Khodyrev\obj\Debug\net10.0\Lab02-Khodyrev.genruntimeconfig.cache
 C:\Users\Teacher\Documents\Lab02-Khodyrev\obj\Debug\net10.0\ref\Lab02-Khodyrev.dll
+C:\Users\Teacher\Documents\Lab02-Khodyrev\obj\Debug\net10.0\Lab02-Khodyrev.sourcelink.json
