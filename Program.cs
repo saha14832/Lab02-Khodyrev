@@ -58,10 +58,46 @@
 
 // Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
 
-Console.WriteLine();
-Console.WriteLine("Ввод чисел: Convert и Parse");
+// Console.WriteLine();
+// Console.WriteLine("Ввод чисел: Convert и Parse");
 
+// Console.Write("Введите ваш год рождения: ");
+// string birthYearInput = Console.ReadLine();
+
+// int birthYearConvert = Convert.ToInt32(birthYearInput);
+// int birthYearParse = int.Parse(birthYearInput);
+
+// Console.WriteLine($"Convert.ToInt32: {birthYearConvert}");
+// Console.WriteLine($"int.Parse:      {birthYearParse}");
+// Console.WriteLine($"В 2030 году вам будет: {2030 - birthYearConvert} лет");
+
+// Console.WriteLine();
+// Console.WriteLine("Ввод чисел: TryParse");
+
+// Console.Write("Введите количество прочитанных книг за семестр: ");
+// string booksInput = Console.ReadLine();
+
+// bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
+
+// Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
+// Console.WriteLine($"Значение переменной booksCount: {booksCount}");
+// Console.WriteLine();
+
+
+Console.WriteLine("Ввод текста");
+
+Console.Write("Введите ваше имя: ");
+string enteredName = Console.ReadLine();
+
+Console.Write("Введите название вашей группы: ");
+string enteredGroup = Console.ReadLine();
+
+Console.WriteLine($"Здравствуйте, {enteredName} из группы {enteredGroup}!");
+
+
+Console.WriteLine();
 Console.Write("Введите ваш год рождения: ");
+
 string birthYearInput = Console.ReadLine();
 
 int birthYearConvert = Convert.ToInt32(birthYearInput);
@@ -69,15 +105,17 @@ int birthYearParse = int.Parse(birthYearInput);
 
 Console.WriteLine($"Convert.ToInt32: {birthYearConvert}");
 Console.WriteLine($"int.Parse:      {birthYearParse}");
-Console.WriteLine($"В 2030 году вам будет: {2030 - birthYearConvert} лет");
+
 
 Console.WriteLine();
-Console.WriteLine("Ввод чисел: TryParse");
+Console.WriteLine("Средний балл за прошлый семестр");
 
-Console.Write("Введите количество прочитанных книг за семестр: ");
-string booksInput = Console.ReadLine();
+double sredniyball = 4.4;
 
-bool wasSuccessful = int.TryParse(booksInput, out int booksCount);
+Console.WriteLine($"средний балл: {sredniyball}");
 
-Console.WriteLine($"Удалось преобразовать: {wasSuccessful}");
-Console.WriteLine($"Значение переменной booksCount: {booksCount}");
+
+
+
+Console.Write("любимая буква:");
+char a = Console.ReadLine()[0];
